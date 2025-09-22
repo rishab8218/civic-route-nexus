@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -46,6 +47,28 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        // Civic Dashboard Status Colors
+        status: {
+          new: "hsl(var(--status-new))",
+          "new-foreground": "hsl(var(--status-new-foreground))",
+          acknowledged: "hsl(var(--status-acknowledged))",
+          "acknowledged-foreground": "hsl(var(--status-acknowledged-foreground))",
+          "in-progress": "hsl(var(--status-in-progress))",
+          "in-progress-foreground": "hsl(var(--status-in-progress-foreground))",
+          resolved: "hsl(var(--status-resolved))",
+          "resolved-foreground": "hsl(var(--status-resolved-foreground))",
+        },
+        // Priority Colors
+        priority: {
+          urgent: "hsl(var(--priority-urgent))",
+          "urgent-foreground": "hsl(var(--priority-urgent-foreground))",
+          high: "hsl(var(--priority-high))",
+          "high-foreground": "hsl(var(--priority-high-foreground))",
+          medium: "hsl(var(--priority-medium))",
+          "medium-foreground": "hsl(var(--priority-medium-foreground))",
+          low: "hsl(var(--priority-low))",
+          "low-foreground": "hsl(var(--priority-low-foreground))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
